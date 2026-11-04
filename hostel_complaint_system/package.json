@@ -1,0 +1,9 @@
+{
+  "name": "hostel-complaint-maintenance-system",
+  "version": "1.0.0",
+  "description": "Hostel Complaint & Maintenance Management System - minor project",
+  "main": "src/server.js",
+  "scripts": {"start": "node src/server.js", "dev": "nodemon src/server.js"},
+  "dependencies": {"bcryptjs":"^2.4.3","cookie-parser":"^1.4.6","dotenv":"^16.4.7","express":"^4.21.2","express-session":"^1.18.1","mysql2":"^3.11.5"},
+  "devDependencies": {"nodemon":"^3.1.7"}
+}
